@@ -1,0 +1,433 @@
+
+
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Stats</title>
+    
+<style>
+body {
+  font-family: arial,helvetica,geneva,sans-serif;	/* font settings */
+  font-size: 100%;				/* for em sizing */
+  background-color: #ffffff;  
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  border-width: 1px;
+  border-color: #534f4f;
+  margin-bottom: 1em;
+}
+
+table.results tr {
+  border-bottom: dotted 1px #737CA1;
+  pading-left: 10
+}
+
+.resultcell {
+  padding: 10px;
+}
+
+</style>    
+  </head>
+
+<body>
+<table border>
+<tr><th colspan="3">Στατιστικά ελέγχων AUTH</th></tr>
+<tr><th>Είδος ελέγχου</th><th>Ημ/νία Ελέγχου</th><th>Αποτελέσματα (αρ.εγγραφών)</th></tr>
+
+  
+  <tr>
+  <td>
+  MODS-GA<br><small>(Έλεγχος τονισμών/αποστρόφων με grave accent)</small>
+  </td>
+  <td>
+  25/04/2015 11:05
+  </td>
+  <td class="resultcell">
+    <table class="results">
+    
+      <tr><td>PASS (<small>Χωρίς πρόβλημα</small>)</td>
+      
+        <td>134422</td>
+      
+      
+      </tr>
+    
+      <tr><td>AUTO (<small>Έγινε αυτόματη διόρθωση</small>)</td>
+      
+        <td><a href="auth_MODS-GA_AUTO.html">48</a></td>      
+      
+      
+      </tr>
+    
+    </table> 
+  </td>  
+  </tr>
+
+
+  
+  <tr>
+  <td>
+  MODS-DI<br><small>(Εντοπισμός διαλυτικών (diaeresis))</small>
+  </td>
+  <td>
+  25/04/2015 11:05
+  </td>
+  <td class="resultcell">
+    <table class="results">
+    
+      <tr><td>PASS (<small>Χωρίς πρόβλημα</small>)</td>
+      
+        <td>134470</td>
+      
+      
+      </tr>
+    
+    </table> 
+  </td>  
+  </tr>
+
+
+  
+  <tr>
+  <td>
+  MODS-AA<br><small>(Εντοπισμός acute accent - διόρθωση ελληνικών αλφαριθμητικών)</small>
+  </td>
+  <td>
+  25/04/2015 11:05
+  </td>
+  <td class="resultcell">
+    <table class="results">
+    
+      <tr><td>PASS (<small>Χωρίς πρόβλημα</small>)</td>
+      
+        <td>134470</td>
+      
+      
+      </tr>
+    
+    </table> 
+  </td>  
+  </tr>
+
+
+  
+  <tr>
+  <td>
+  MODS-AT<br><small>(Εντοπισμός χρήσης αποστρόφου αντί για τόνο)</small>
+  </td>
+  <td>
+  25/04/2015 11:05
+  </td>
+  <td class="resultcell">
+    <table class="results">
+    
+      <tr><td>PASS (<small>Χωρίς πρόβλημα</small>)</td>
+      
+        <td>134466</td>
+      
+      
+      </tr>
+    
+      <tr><td>AUTO (<small>Έγινε αυτόματη διόρθωση</small>)</td>
+      
+        <td><a href="auth_MODS-AT_AUTO.html">4</a></td>      
+      
+      
+      </tr>
+    
+    </table> 
+  </td>  
+  </tr>
+
+
+  
+  <tr>
+  <td>
+  MXAL-DT<br><small>(Έυρεση λέξεων με μικτά αλφάβητα)</small>
+  </td>
+  <td>
+  25/04/2015 11:32
+  </td>
+  <td class="resultcell">
+    <table class="results">
+    
+      <tr><td>PASS (<small>Χωρίς πρόβλημα λέξεων με μικτά αλφάβητα</small>)</td>
+      
+        <td>134468</td>
+      
+      
+      </tr>
+    
+      <tr><td>FAIL (<small>Υπάρχουν λέξεις με μικτά αλφάβητα σε υποπεδία</small>)</td>
+      
+        <td><a href="auth_MXAL-DT_FAIL.html">2</a></td>      
+      
+      
+      </tr>
+    
+    </table> 
+  </td>  
+  </tr>
+
+
+  
+  <tr>
+  <td>
+  SIMH-NU<br><small>(Έλεγχος ύπαρξης ενός μόνο πεδίου 2xx ανά εγγραφή)</small>
+  </td>
+  <td>
+  25/04/2015 11:08
+  </td>
+  <td class="resultcell">
+    <table class="results">
+    
+      <tr><td>PASS (<small>Χωρίς πρόβλημα</small>)</td>
+      
+        <td>134470</td>
+      
+      
+      </tr>
+    
+    </table> 
+  </td>  
+  </tr>
+
+
+  
+  <tr>
+  <td>
+  CLSH-AU<br><small>(Έλεγχος επικαλύψεων 2xx)</small>
+  </td>
+  <td>
+  25/04/2015 11:55
+  </td>
+  <td class="resultcell">
+    <table class="results">
+    
+      <tr><td>PASS (<small>Χωρίς πρόβλημα επικαλύψεων</small>)</td>
+      
+        <td>131825</td>
+      
+      
+      </tr>
+    
+      <tr><td>INFO (<small>Παρόμοια - χωρίς επικάλυψη</small>)</td>
+      
+        <td><a href="auth_CLSH-AU_INFO.html">2304</a></td>      
+      
+      
+      </tr>
+    
+      <tr><td>FAIL (<small>Σφάλμα επικάλυψης</small>)</td>
+      
+        <td><a href="auth_CLSH-AU_FAIL.html">412</a></td>      
+      
+      
+      </tr>
+    
+    </table> 
+  </td>  
+  </tr>
+
+
+  
+  <tr>
+  <td>
+  CPTL-DT<br><small>(Έυρεση πεδίων με κεφαλαία μόνο)</small>
+  </td>
+  <td>
+  25/04/2015 11:38
+  </td>
+  <td class="resultcell">
+    <table class="results">
+    
+      <tr><td>NOCAPITALS (<small>Χωρίς πρόβλημα κεφαλαίων</small>)</td>
+      
+        <td>85351</td>
+      
+      
+      </tr>
+    
+      <tr><td>CAPITALS-WORD (<small>Υποπεδία με μεμονωμένες λέξεις με κεφαλαία</small>)</td>
+      
+        <td><a href="auth_CPTL-DT_CAPITALS-WORD.html">850</a></td>      
+      
+      
+      </tr>
+    
+      <tr><td>CAPITALS-SUBFIELD (<small>Πλήρη υποπεδία με κεφαλαία</small>)</td>
+      
+        <td><a href="auth_CPTL-DT_CAPITALS-SUBFIELD.html">48269</a></td>      
+      
+      
+      </tr>
+    
+    </table> 
+  </td>  
+  </tr>
+
+
+</table>
+
+<table border>
+<tr><th colspan="3">Στατιστικά ελέγχων BIB</th></tr>
+<tr><th>Είδος ελέγχου</th><th>Ημ/νία Ελέγχου</th><th>Αποτελέσματα (αρ.εγγραφών)</th></tr>
+
+  
+  <tr>
+  <td>
+  MODS-GA<br><small>(Έλεγχος τονισμών/αποστρόφων με grave accent)</small>
+  </td>
+  <td>
+  25/04/2015 11:51
+  </td>
+  <td class="resultcell">
+    <table class="results">
+    
+      <tr><td>PASS (<small>Χωρίς πρόβλημα</small>)</td>
+      
+        <td>71807</td>
+      
+      
+      </tr>
+    
+      <tr><td>AUTO (<small>Έγινε αυτόματη διόρθωση</small>)</td>
+      
+        <td><a href="bib_MODS-GA_AUTO.html">85</a></td>      
+      
+      
+      </tr>
+    
+      <tr><td>FAIL (<small>Απαιτείται έλεγχος</small>)</td>
+      
+        <td><a href="bib_MODS-GA_FAIL.html">1</a></td>      
+      
+      
+      </tr>
+    
+    </table> 
+  </td>  
+  </tr>
+
+
+  
+  <tr>
+  <td>
+  MODS-DI<br><small>(Εντοπισμός διαλυτικών (diaeresis))</small>
+  </td>
+  <td>
+  25/04/2015 11:51
+  </td>
+  <td class="resultcell">
+    <table class="results">
+    
+      <tr><td>PASS (<small>Χωρίς πρόβλημα</small>)</td>
+      
+        <td>71893</td>
+      
+      
+      </tr>
+    
+    </table> 
+  </td>  
+  </tr>
+
+
+  
+  <tr>
+  <td>
+  MODS-AA<br><small>(Εντοπισμός acute accent - διόρθωση ελληνικών αλφαριθμητικών)</small>
+  </td>
+  <td>
+  25/04/2015 11:51
+  </td>
+  <td class="resultcell">
+    <table class="results">
+    
+      <tr><td>PASS (<small>Χωρίς πρόβλημα</small>)</td>
+      
+        <td>71885</td>
+      
+      
+      </tr>
+    
+      <tr><td>AUTO (<small>Έγινε αυτόματη διόρθωση</small>)</td>
+      
+        <td><a href="bib_MODS-AA_AUTO.html">8</a></td>      
+      
+      
+      </tr>
+    
+    </table> 
+  </td>  
+  </tr>
+
+
+  
+  <tr>
+  <td>
+  MODS-AT<br><small>(Εντοπισμός χρήσης αποστρόφου αντί για τόνο)</small>
+  </td>
+  <td>
+  25/04/2015 11:51
+  </td>
+  <td class="resultcell">
+    <table class="results">
+    
+      <tr><td>PASS (<small>Χωρίς πρόβλημα</small>)</td>
+      
+        <td>71858</td>
+      
+      
+      </tr>
+    
+      <tr><td>AUTO (<small>Έγινε αυτόματη διόρθωση</small>)</td>
+      
+        <td><a href="bib_MODS-AT_AUTO.html">35</a></td>      
+      
+      
+      </tr>
+    
+    </table> 
+  </td>  
+  </tr>
+
+
+  
+  <tr>
+  <td>
+  MXAL-DT<br><small>(Έυρεση λέξεων με μικτά αλφάβητα)</small>
+  </td>
+  <td>
+  25/04/2015 11:13
+  </td>
+  <td class="resultcell">
+    <table class="results">
+    
+      <tr><td>PASS (<small>Χωρίς πρόβλημα λέξεων με μικτά αλφάβητα</small>)</td>
+      
+        <td>71725</td>
+      
+      
+      </tr>
+    
+      <tr><td>FAIL (<small>Υπάρχουν λέξεις με μικτά αλφάβητα σε υποπεδία</small>)</td>
+      
+        <td><a href="bib_MXAL-DT_FAIL.html">168</a></td>      
+      
+      
+      </tr>
+    
+    </table> 
+  </td>  
+  </tr>
+
+
+</table>
+
+</body>
+</html>
