@@ -1,0 +1,361 @@
+
+
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Stats</title>
+    
+<style>
+body {
+  font-family: arial,helvetica,geneva,sans-serif;	/* font settings */
+  font-size: 100%;				/* for em sizing */
+  background-color: #ffffff;  
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  border-width: 1px;
+  border-color: #534f4f;
+  margin-bottom: 1em;
+}
+
+table.results tr {
+  border-bottom: dotted 1px #737CA1;
+  pading-left: 10
+}
+
+.resultcell {
+  padding: 10px;
+}
+
+td.result-links {
+  text-align: right;
+}
+
+</style>    
+  </head>
+
+<body>
+<table border>
+<tr><th colspan="2">Στατιστικά ελέγχων AUTH</th></tr>
+<tr><th>Είδος ελέγχου</th><th>Αποτελέσματα (αρ.εγγραφών)</th></tr>
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+</table>
+
+<table border>
+<tr><th colspan="2">Στατιστικά ελέγχων BIB</th></tr>
+<tr><th>Είδος ελέγχου</th><th>Αποτελέσματα (αρ.εγγραφών)</th></tr>
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+ 
+  <tr>
+  <td>
+  <small>Έλεγχος ύπαρξης πολλαπλών αρ.εισαγωγής σε πεδία 852</small>
+  </td>
+  <td class="resultcell">
+    <table class="results">
+    
+      
+    
+      
+      
+
+      <tr><td class="result-descr">
+        
+           <img src="../../static/pass.png" alt="pass" />
+        
+          <small>Πολλαπλοί αρ.εισαγωγής</small></td>
+        <td class="result-links">
+          
+            0
+                    
+          
+          
+        </td>
+      </tr>
+      
+    
+    </table> 
+  </td>  
+  </tr>
+
+ 
+
+ 
+ 
+  <tr>
+  <td>
+  <small>Προσδιορισμός αρ.εισαγωγής σε πεδία 852</small>
+  </td>
+  <td class="resultcell">
+    <table class="results">
+    
+      
+      
+
+      <tr><td class="result-descr">
+        
+           <img src="../../static/info.png" alt="info" />
+        
+          <small>Επιλογή αρ. εισαγωγής από πεδίο 909</small></td>
+        <td class="result-links">
+          
+            <a href="bib/H909-AR/LINK/index.html">56</a>
+                    
+          
+          
+        </td>
+      </tr>
+      
+    
+      
+      
+
+      <tr><td class="result-descr">
+        
+           <img src="../../static/warn.png" alt="warn" />
+        
+          <small>Ασυμφωνία αρ.εισαγωγής 852-909</small></td>
+        <td class="result-links">
+          
+            <a href="bib/H909-AR/SETR/index.html">961</a>
+                    
+          
+          
+        </td>
+      </tr>
+      
+    
+    </table> 
+  </td>  
+  </tr>
+
+ 
+
+ 
+ 
+  <tr>
+  <td>
+  <small>Έλεγχος ύπαρξης πεδίων 852</small>
+  </td>
+  <td class="resultcell">
+    <table class="results">
+    
+      
+    
+      
+      
+
+      <tr><td class="result-descr">
+        
+           <img src="../../static/info.png" alt="info" />
+        
+          <small>Χωρίς πεδία 852</small></td>
+        <td class="result-links">
+          
+            <a href="bib/H909-EX/INFO/index.html">4</a>
+                    
+          
+            &nbsp;&nbsp;&nbsp;[<a href="../csvstats/bib/H909-EX/INFO/out.csv">csv<img src="../../static/save.png" alt="save" /></a>]
+          
+          
+        </td>
+      </tr>
+      
+    
+    </table> 
+  </td>  
+  </tr>
+
+ 
+
+ 
+ 
+  <tr>
+  <td>
+  <small>Έλεγχος πεδίων 909 χωρίς σύνδεση με πεδία 852</small>
+  </td>
+  <td class="resultcell">
+    <table class="results">
+    
+      
+    
+      
+      
+
+      <tr><td class="result-descr">
+        
+           <img src="../../static/warn.png" alt="warn" />
+        
+          <small>Ασύνδετα πεδία 909</small></td>
+        <td class="result-links">
+          
+            <a href="bib/H909-9U/WARN/index.html">317</a>
+                    
+          
+          
+        </td>
+      </tr>
+      
+    
+    </table> 
+  </td>  
+  </tr>
+
+ 
+
+ 
+ 
+  <tr>
+  <td>
+  <small>Έλεγχος πεδίων 960 για σύνδεση με πεδία 852</small>
+  </td>
+  <td class="resultcell">
+    <table class="results">
+    
+      
+    
+      
+      
+
+      <tr><td class="result-descr">
+        
+           <img src="../../static/warn.png" alt="warn" />
+        
+          <small>Ασύνδετα πεδία 960</small></td>
+        <td class="result-links">
+          
+            <a href="bib/H960-9U/WARN/index.html">1032</a>
+                    
+          
+          
+        </td>
+      </tr>
+      
+    
+    </table> 
+  </td>  
+  </tr>
+
+ 
+
+ 
+ 
+  <tr>
+  <td>
+  <small>Έλεγχος ορθότητας μετατροπής 852/909/960</small>
+  </td>
+  <td class="resultcell">
+    <table class="results">
+    
+      
+      
+
+      <tr><td class="result-descr">
+        
+           <img src="../../static/warn.png" alt="warn" />
+        
+          <small>Αγνοήθηκαν πεδία 909 ή 960</small></td>
+        <td class="result-links">
+          
+            <a href="bib/HITM-VD/WARN/index.html">51</a>
+                    
+          
+          
+        </td>
+      </tr>
+      
+    
+      
+      
+
+      <tr><td class="result-descr">
+        
+           <img src="../../static/fail.png" alt="fail" />
+        
+          <small>Μη έγκυρη πληροφορία πεδίου 852</small></td>
+        <td class="result-links">
+          
+            <a href="bib/HITM-VD/FAIL/index.html">3</a>
+                    
+          
+          
+        </td>
+      </tr>
+      
+    
+    </table> 
+  </td>  
+  </tr>
+
+ 
+
+ 
+ 
+  <tr>
+  <td>
+  <small>Διορθώσεις πληροφορίας items</small>
+  </td>
+  <td class="resultcell">
+    <table class="results">
+    
+      
+      
+
+      <tr><td class="result-descr">
+        
+           <img src="../../static/info.png" alt="info" />
+        
+          <small>Μεταβολή πληροφορίας items</small></td>
+        <td class="result-links">
+          
+            <a href="bib/PITM-00/INFO/index.html">80</a>
+                    
+          
+          
+        </td>
+      </tr>
+      
+    
+    </table> 
+  </td>  
+  </tr>
+
+ 
+
+</table>
+
+</body>
+</html>
